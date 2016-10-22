@@ -1,0 +1,40 @@
+a, ul {
+    padding: 10px;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+body {
+    text-align: center;
+    font-family: futura, sans-serif;
+}
+
+footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:120px;
+   width:100%;
+   background:#999;
+   font-size: 96px;
+}
+
+#imginthefooter1 {
+    position: fixed;
+    width:100px;
+    height: 120px;
+    bottom: 0px;
+    left: 400px;
+}
+
+#imginthefooter2 {
+    position: fixed;
+    width:100px;
+    height: 120px;
+    bottom: 0px;
+}
+
+.resize {
+    width: 200;
+    height: auto;
+}

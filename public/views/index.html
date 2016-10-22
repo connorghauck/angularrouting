@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="routeApp">
+    <head>
+        <meta charset="utf-8">
+        <title>Practicing Client Side Routing</title>
+        <script src="vendors/angular.min.js" charset="utf-8"></script>
+        <script src="vendors/angular-route.min.js" charset="utf-8"></script>
+        <script src="scripts/app.module.js" charset="utf-8"></script>
+        <script src="scripts/app.config.js" charset="utf-8"></script>
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+
+
+        <base href="/" />
+    </head>
+    <body>
+        <div  id="innerbox">
+
+        <h1>Cool Characters!!!!</h1>
+
+
+<ul>
+        <a href="/zach">Zach Garman</a>
+        <a href="/masterchief">Master Chef</a>
+        <a href="/frodo">Frodo</a>
+        <a href="/harrypotter">Harry Potter</a>
+
+</ul>
+</div>
+        <ng-view>
+
+        </ng-view>
+
+        <footer>
+            <img class=resize id="imginthefooter1" src="http://previews.123rf.com/images/avelkrieg/avelkrieg1303/avelkrieg130300080/18203928-Illustration-of-a-cartoon-foot-in-side-view-with-toes-slightly-raised-Stock-Vector.jpg"></div>
+            FOOTER!!
+            <img class=resize id="imginthefooter2" src="http://previews.123rf.com/images/avelkrieg/avelkrieg1303/avelkrieg130300080/18203928-Illustration-of-a-cartoon-foot-in-side-view-with-toes-slightly-raised-Stock-Vector.jpg"></div>
+
+        </footer>
+    </body>
+</html>
